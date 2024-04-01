@@ -16,7 +16,6 @@ public class ShoppingCartController {
 
     private final ProductService productService;
 
-    @Autowired
     public ShoppingCartController(ShoppingCartService shoppingCartService, ProductService productService) {
         this.shoppingCartService = shoppingCartService;
         this.productService = productService;
